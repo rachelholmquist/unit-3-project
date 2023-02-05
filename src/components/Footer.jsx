@@ -1,12 +1,13 @@
 import React from "react";
 import { ImFacebook, ImInstagram, ImTwitter, ImGithub } from "react-icons/im";
+import classes from "./Header.module.css";
 
 const Footer = () => {
   return (
     <footer>
       <div>
         <h5>Hit us up on our socials!</h5>
-        <div>
+        <div className={classes.soc_icon}>
           <a href="https://www.devmountain.com" target="_blank">
             <ImFacebook size="1.5em" color="#3f3f3f" />
           </a>

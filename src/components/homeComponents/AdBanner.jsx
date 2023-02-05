@@ -1,10 +1,12 @@
 import React from "react";
+import classes from "./AdBanner.module.css";
 import salmon from "../../assets/salmon.jpg";
 import { Link } from "react-router-dom";
 
 const AdBanner = () => {
   return (
     <div
+    className={classes.ad_banner}
       style={{
         background: `linear-gradient(
           190deg,

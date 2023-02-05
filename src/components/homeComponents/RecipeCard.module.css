@@ -1,0 +1,28 @@
+.recipe_card {
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #a5dced;
+}
+
+.recipe_image_container {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.blue_btn {
+    background-color: blue;
+    color: white;
+}
