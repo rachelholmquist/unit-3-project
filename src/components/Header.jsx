@@ -5,7 +5,7 @@ import classes from "./Header.module.css";
 const Header = () => {
   return (
     <header>
-      <h2>Devmountain Eatery</h2>
+      <h1>Devmountain Eatery</h1>
       <nav>
         <Link to="">
           <button className={classes.nav_btn}>Home</button>

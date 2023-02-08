@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 5%;
-    box-shadow: 5px 5px 5px #a5dced;
+    box-shadow: 5px 5px 15px #304146;
 }
 
 .recipe_image_container {
@@ -19,10 +19,15 @@
 img {
     height: 100%;
     width: 100%;
-    border-radius: 5px 5px 0px 0px;
+    box-shadow: 1px 1px 10px rgb(72, 72, 98);
 }
 
 .blue_btn {
     background-color: blue;
     color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
 }

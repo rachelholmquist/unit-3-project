@@ -12,11 +12,13 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <main>
       <Routes>
       <Route index element={<HomeScreen />} />
       <Route path="newRecipe" element={<NewRecipeScreen />} />
       <Route path="recipe/:id" element={<DetailScreen />} />
       </Routes>
+      </main>
       <Footer />
     </div>
   );
